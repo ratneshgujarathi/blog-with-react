@@ -1,0 +1,59 @@
+.custom-navbar{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;;
+}
+.topLeft, .topRight{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topCenter{
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topIcons{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+}
+
+.topImage{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.topList-items{
+    cursor: pointer;
+    margin: 20px;
+    font-weight: 300;
+    font-size: 20px;    
+}
+
+.topSearchIcon{
+    margin-left: 16px;
+    color: #666;
+    cursor: pointer;
+}
